@@ -4,8 +4,8 @@ Site de apresentação do **Quaru**, o parceiro de treino do dia a dia.
 App sob domínio da **Domma Tecnologia**. Site desenvolvido pela **Agência REDBOX**.
 
 - Site: https://quaru.com.br
-- App: https://otaviobmarques.github.io/quaru/
-- Área do treinador: https://otaviobmarques.github.io/quaru/treinador/
+- App: https://app.quaru.com.br/
+- Área do treinador: https://app.quaru.com.br/treinador/
 
 ## Como é feito
 Site estático, sem dependências: `index.html`, `css/site.css` e `js/site.js` (animações com IntersectionObserver,
