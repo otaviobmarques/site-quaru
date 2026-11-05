@@ -215,3 +215,4 @@ em::after { content: ''; position: absolute; left: -2%; right: -2%; bottom: .06e
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
   .js .revelar { opacity: 1; transform: none; }
 }
+.defs-svg { position: absolute; width: 0; height: 0; overflow: hidden; }

@@ -3,7 +3,7 @@
 Site de apresentação do **Quaru**, o parceiro de treino do dia a dia.
 App sob domínio da **Domma Tecnologia**. Site desenvolvido pela **Agência REDBOX**.
 
-- Site: https://otaviobmarques.github.io/site-quaru/
+- Site: https://quaru.com.br
 - App: https://otaviobmarques.github.io/quaru/
 - Área do treinador: https://otaviobmarques.github.io/quaru/treinador/
 
@@ -21,8 +21,9 @@ Coloque o logo em `img/marca/redbox-branco.png` (versão para fundo escuro: "RED
 O site troca o texto pelo logo sozinho quando o arquivo existe.
 
 ## Publicação
-A cada push na `main`, o GitHub Actions publica no GitHub Pages (`.github/workflows/publicar.yml`).
-Na primeira vez, ative em **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+Hospedado na **Vercel** (time REDBOX, projeto `site-quaru`), ligado a este repositório: cada push na `main`
+publica em https://quaru.com.br, e cada PR ganha um link de prévia. `vercel.json` define os cabeçalhos de
+segurança (CSP restrita, HSTS, nosniff), o cache das imagens e URLs sem `.html`. Sem etapa de build.
 
 ## Ver no computador
 ```bash
